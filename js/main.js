@@ -98,6 +98,31 @@
     });
 
 
+    // Team carousel
+    $('.team-carousel').owlCarousel({
+        loop: true,
+        margin: 25,
+        dots: false,
+        loop: true,
+        autoplay: true,
+        smartSpeed: 1000,
+        responsive: {
+            0:{
+                items:1
+            },
+            576:{
+                items:1
+            },
+            768:{
+                items:2
+            },
+            992:{
+                items:4
+            }
+        }
+    });
+
+
     // Vendor carousel
     $('.vendor-carousel').owlCarousel({
         loop: true,

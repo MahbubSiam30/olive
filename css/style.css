@@ -467,7 +467,9 @@ h6,
 .blog-item:hover .blog-img img {
     transform: scale(1.15);
 }
-
+.team-carousel .owl-item{
+/*    width: auto !important;*/
+}
 
 /*** Miscellaneous ***/
 @media (min-width: 991.98px) {
